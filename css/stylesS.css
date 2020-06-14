@@ -1,13 +1,14 @@
 @media only screen and (max-width: 650px) and (min-width: 570px) {
-    * {
+    /* * {
         overflow-x: hidden;
         width: auto;
     }
-   
+    */
     /* SOBRE INIT */
    
     .containerSobre{ 
         flex-wrap: wrap;
+        background-color: orange;
     }
     
     .imgSobre {

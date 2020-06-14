@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.listHeader {
+    background-color: #1e6262;
+    color: white;
+    display: flex;
+    position: fixed;
+    width: 100%;
+}
+.listHeader li {
+    display: block;
+    padding: 15px;
+}
+
+.listHeader li:first-child {
+    margin-right: auto;
+}
+
+.listHeader li:hover {
+    cursor: pointer;
+    color: red;
+}
+
+/* SOBRE INIT */
+
+
+.containerSobre {
+    display: flex;
+    flex: 2;
+    /* background-color: #194449; */
+    background-color: blue;
+}
+
+.imgSobre, .txtSobre {
+    margin-top: 65px;
+    margin-bottom: 65px;
+    width: 50%;
+}
+
+.imgSobre img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin-left: 18%;
+}
+
+.contentTxtSobre {
+    margin-top: 10%;
+    text-align: center;
+    color: white;
+    margin-right: 20px;
+}
+
+.contentTxtSobre p {
+    margin-top: 5%;
+}
+
+/* SOBRE END */
+
+/* ** */
+
+/* HABILIDADES INIT */
+
+.containerHabilidades {
+    background-color: #1e6262;
+}
+
+.skillsCards {
+    display: grid;
+    color: white;
+    padding-top: 65px;
+    padding-bottom: 65px;
+    margin-left: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 5px;
+}
+
+.skill {
+    padding-left: 15px;
+    border: 1px solid white;
+    border-radius: 5%;
+    height: 200px;
+    width: 200px;
+}
+
+/* HABILIDADES END */
+
+/* ** */
+
+/* PROJETOS INIT */
+
+.containerProjetos {
+    background-color: #194449;
+}
+
+.contentProjetos {
+    display: grid;
+    color: white;
+    padding-top: 65px;
+    padding-bottom: 65px;
+    margin-left: 13%;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 10px;
+}
+
+.projetos {
+    padding-left: 15px;
+    border: 1px solid white;
+    border-radius: 5%;
+    height: 250px;
+    width: 250px;
+}
+/* PROJETOS END */
+
+/* ** */
+
+/* CONTATO INIT */
+
+.containerContato {
+    background-color: #1e6262;
+}
+.iconsContato {
+    margin-left: 40%;
+    padding: 18px 0px;
+}
+.iconsContato i {
+   font-size: 50px;
+   transition: 0.3s;
+   padding-left: 5px;
+}
+
+.iconsContato i:hover {
+    cursor: pointer;
+    color: rgb(166, 168, 166) ;
+}
+/* CONTATO END */
