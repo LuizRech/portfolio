@@ -76,7 +76,7 @@
     color: white;
     padding-top: 65px;
     padding-bottom: 65px;
-    margin-left: 15px;
+    margin-left: 30px;
     grid-template-columns: 1fr 1fr 1fr;
     row-gap: 5px;
 }
@@ -90,3 +90,53 @@
 }
 
 /* HABILIDADES END */
+
+/* ** */
+
+/* PROJETOS INIT */
+
+.containerProjetos {
+    background-color: #194449;
+}
+
+.contentProjetos {
+    display: grid;
+    color: white;
+    padding-top: 65px;
+    padding-bottom: 65px;
+    margin-left: 13%;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 10px;
+}
+
+.projetos {
+    padding-left: 15px;
+    border: 1px solid white;
+    border-radius: 5%;
+    height: 250px;
+    width: 250px;
+}
+/* PROJETOS END */
+
+/* ** */
+
+/* CONTATO INIT */
+
+.containerContato {
+    background-color: #1e6262;
+}
+.iconsContato {
+    margin-left: 40%;
+    padding: 18px 0px;
+}
+.iconsContato i {
+   font-size: 50px;
+   transition: 0.3s;
+   padding-left: 5px;
+}
+
+.iconsContato i:hover {
+    cursor: pointer;
+    color: rgb(166, 168, 166) ;
+}
+/* CONTATO END */
