@@ -1,0 +1,73 @@
+@media only screen and (max-width: 494px) and (min-width: 0px){
+    * {
+        overflow-x: hidden;
+        width: auto;
+    }
+
+
+    .listHeader {
+        display: list-item;
+        text-align: center;
+        position: relative;
+    }
+
+    /* SOBRE INIT */
+
+    .containerSobre { 
+        flex-wrap: wrap;
+        background-color: yellow;
+    }
+    
+    .imgSobre {
+        width: 100%;
+        border-bottom: 0;
+    }
+    
+    .txtSobre {
+        width: 100%;
+        margin-top: 0;
+        padding-top: 0;
+        margin-bottom: 35px;
+    }
+    
+    .contentTxtSobre {
+        width: 100%;
+        margin: 0 5%;
+    }
+    
+    .contentTxtSobre p {
+        margin: 2% 25%;
+    }
+
+	/* SOBRE END */
+
+	/* ** */
+
+    /* HABILIDADES INIT */
+    
+    
+	.skillsCards {
+		grid-template-columns: 1fr;
+		margin: 0 22%;
+        row-gap: 15px;
+	}
+	
+	/* HABILIDADES END */
+    
+    /* ** */
+
+    /* PROJETOS INIT */
+    
+    .contentProjetos {
+        grid-template-columns: 1fr;
+        row-gap: 20;
+        margin: 0 15%;
+    }
+
+    /* PROJETOS END */
+    
+    .iconsContato {
+        margin-left: 30%;
+    }
+	
+}
