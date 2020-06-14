@@ -8,7 +8,7 @@
 }
 
 .listHeader {
-    background-color: #1e6262;
+    background-color: #193f3f;
     color: white;
     display: flex;
     position: fixed;
@@ -34,8 +34,7 @@
 .containerSobre {
     display: flex;
     flex: 2;
-    /* background-color: #194449; */
-    background-color: blue;
+    background-color: #194449;
 }
 
 .imgSobre, .txtSobre {
@@ -43,6 +42,8 @@
     margin-bottom: 65px;
     width: 50%;
 }
+
+
 
 .imgSobre img {
     height: 250px;
@@ -112,10 +113,10 @@
 
 .projetos {
     padding-left: 15px;
-    border: 1px solid white;
     border-radius: 5%;
     height: 250px;
     width: 250px;
+    border: 1px solid white;
 }
 /* PROJETOS END */
 
@@ -131,9 +132,9 @@
     padding: 18px 0px;
 }
 .iconsContato i {
-   font-size: 50px;
-   transition: 0.3s;
-   padding-left: 5px;
+    font-size: 50px;
+    transition: 0.3s;
+    padding-left: 5px;
 }
 
 .iconsContato i:hover {
@@ -141,3 +142,21 @@
     color: rgb(166, 168, 166) ;
 }
 /* CONTATO END */
+
+@media only screen and (min-width: 1251px) {
+    .imgSobre{
+        margin-left: 25%;
+    }
+    
+    .txtSobre{
+        margin-right: 25%;
+    }
+
+    .skillsCards {
+        padding-left: 15%;
+    }
+    
+    .contentProjetos {
+        margin-left: 20%;
+    }
+}
