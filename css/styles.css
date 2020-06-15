@@ -2,9 +2,13 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    text-decoration: none;
     list-style: none;
     font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
 
 .listHeader {
@@ -23,13 +27,12 @@
     margin-right: auto;
 }
 
-.listHeader li:hover {
+.listHeader li a:hover {
     cursor: pointer;
     color: red;
 }
 
 /* SOBRE INIT */
-
 
 .containerSobre {
     display: flex;
@@ -42,8 +45,6 @@
     margin-bottom: 65px;
     width: 50%;
 }
-
-
 
 .imgSobre img {
     height: 250px;
@@ -127,10 +128,12 @@
 .containerContato {
     background-color: #1e6262;
 }
+
 .iconsContato {
     margin-left: 40%;
     padding: 18px 0px;
 }
+
 .iconsContato i {
     font-size: 50px;
     transition: 0.3s;
@@ -141,6 +144,7 @@
     cursor: pointer;
     color: rgb(166, 168, 166) ;
 }
+
 /* CONTATO END */
 
 @media only screen and (min-width: 1251px) {

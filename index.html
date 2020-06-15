@@ -16,14 +16,14 @@
     <header>
         <ul class="listHeader">
 					<li>Icon</li>
-					<li>SOBRE</li>
-					<li>HABILIDADES</li>
-					<li>PROJETOS</li>
-					<li>CONTATO</li>
+					<li><a href ="#containerSobre">SOBRE</a></li>
+					<li><a href ="#containerHabilidades">HABILIDADES</a></li>
+					<li><a href ="#containerProjetos">PROJETOS</a></li>
+					<li><a href ="#containerContato">CONTATO</a></li>
 				</ul>
 		</header>
 		
-		<section class="containerSobre">
+		<section class="containerSobre" id="containerSobre">
 			<!-- <h1 class="sobreH1">Sobre</h1> -->
 			<div class="imgSobre">
 				<img src="./assets/imgMe1.jpg" />
@@ -36,7 +36,7 @@
 			</div>
 		</section>
 
-		<section class="containerHabilidades">
+		<section class="containerHabilidades" id="containerHabilidades">
 			<div class="skillsCards">
 				<div class="skill">HTML</div>
 				<div class="skill">CSS</div>
@@ -47,7 +47,7 @@
 			</div>
 		</section>
 
-		<section class="containerProjetos">
+		<section class="containerProjetos" id="containerProjetos">
 			<div class="contentProjetos">
 				<div class="projetos">PROJETO 1</div>
 				<div class="projetos">PROJETO 2</div>
@@ -56,11 +56,19 @@
 			</div>
 		</section>
 
-		<section class="containerContato">
+		<section class="containerContato" id="containerContato">
 			<div class="iconsContato">
-				<i class="fa fa-envelope" aria-hidden="true"></i>
-				<i class="fa fa-linkedin-square" aria-hidden="true"></i>
-				<i class="fa fa-github" aria-hidden="true"></i>
+				<a href="mailto:luiz.adalberto.rech@gmail.com" target="_blank">
+					<i class="fa fa-envelope" aria-hidden="true"></i>
+				</a>
+				
+				<a href ="https://www.linkedin.com/in/luiz-adalberto-rech-90a219149/" target="_blank">
+					<i class="fa fa-linkedin-square" aria-hidden="true"></i>
+				</a>
+				
+				<a href="http://github.com/LuizRech" target="_blank">
+					<i class="fa fa-github" aria-hidden="true"></i>
+				</a>
 			</div>
 		</section>
 </body>
