@@ -42,11 +42,17 @@
     
     
 	.skillsCards {
+        overflow-y: hidden;
 		grid-template-columns: 1fr 1fr;
 		margin: 0 7%;
         row-gap: 15px;
         column-gap: 15px;
-	}
+    }
+
+    .skill-back {
+        background-color: blue;
+        width: 100px;
+    }
 	
 	/* HABILIDADES END */
     
