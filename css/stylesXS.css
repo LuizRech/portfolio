@@ -1,7 +1,8 @@
 @media only screen and (max-width: 569px) and (min-width: 495px){
     * {
-        overflow-x: hidden;
+        /* overflow-x: hidden; */
         width: auto;
+        position: relative;
     }
 
     /* SOBRE INIT */
@@ -39,7 +40,11 @@
 	/* ** */
 
     /* HABILIDADES INIT */
+
     
+    .skill {
+        overflow-x: unset;
+    }
     
 	.skillsCards {
         overflow-y: hidden;
@@ -49,10 +54,6 @@
         column-gap: 15px;
     }
 
-    .skill-back {
-        background-color: blue;
-        width: 100px;
-    }
 	
 	/* HABILIDADES END */
     

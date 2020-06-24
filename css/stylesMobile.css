@@ -46,6 +46,9 @@
 
     /* HABILIDADES INIT */
     
+    .skill {
+        overflow-x: unset;
+    }
     
 	.skillsCards {
 		grid-template-columns: 1fr;
