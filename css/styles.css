@@ -24,7 +24,7 @@ a {
     display: flex;
     position: fixed;
     width: 100%;
-    z-index: 1;
+    z-index: 2;
 }
 .listHeader li {
     display: block;
@@ -181,11 +181,54 @@ a {
 }
 
 .projetos {
-    padding-left: 15px;
+    /* padding-left: 15px; */
     border-radius: 5%;
     height: 250px;
     width: 250px;
     border: 1px solid white;
+    display: flex;
+    cursor: pointer;
+}
+
+.projetos:hover .linhaD {
+    margin-left: 220px;
+    transition: 0.3s;
+}
+
+.projetos:hover .linhaE {
+    margin-left: 10px;
+    transition: 0.3s;
+}
+
+.projetos:hover .imgProject {
+    transition: 0.4s;
+    opacity: 1;
+}
+
+.imgProject {
+    border-radius: 5%;
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    opacity: 0.5;
+}
+
+
+.linhaD, .linhaE {
+    height: 230px;
+    margin-top: 10px;
+    z-index: 1;
+}
+.linhaD {
+    /* margin-right: 120px; */
+    margin-left: 5px;
+    border-right: 1px solid white;
+}
+
+.linhaE {
+    margin-left: 120px;
+    margin-right: 5px;
+    border-left: 1px solid white;
 }
 /* PROJETOS END */
 
