@@ -11,6 +11,13 @@ a {
     color: white;
 }
 
+.apresentation {
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding-top: 15px;
+}
+
 .listHeader {
     background-color: #193f3f;
     color: white;
@@ -117,14 +124,40 @@ a {
     
     .skill-back {
     width: 100%;
-    background-color: red;
+    background-color: #194449;
     transform: rotateY(180deg);
+    border: lightseagreen;
  }
 
  .skill-front img {
     width: 175px;
     height: 175px;
     margin: 6.25px;
+ }
+
+ .box-progress {
+    width: 180px;
+    height: 85px;
+    border: 3px solid white;
+    display: flex;
+    margin-left: 10px;
+    padding: 5px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px 0px #1e6262;
+    cursor: pointer;
+    transition: all 0.3s
+ }
+
+ .progress-bar {
+     height: 65px;
+     width: 50px;
+    margin: 0 5px;    
+     background-color: white;
+    cursor: pointer;
+    border-radius: 2px;
+        
  }
 
 /* HABILIDADES END */
