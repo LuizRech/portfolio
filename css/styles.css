@@ -202,15 +202,50 @@ a {
 
 .projetos:hover .imgProject {
     transition: 0.4s;
+    opacity: 0.5;
+}
+
+.projetos:hover .nameProject {
     opacity: 1;
 }
 
-.imgProject {
-    border-radius: 5%;
+.projetos:hover .dscProject {
+    opacity: 1;
+}
+
+
+
+/* .detailProject {
+    text-align: center;
+    border: 1px solid red;
     height: 250px;
     width: 250px;
     position: absolute;
-    opacity: 0.5;
+} */
+
+.nameProject {
+    opacity: 0;   
+    position: absolute;
+    margin-left: 3%;
+    margin-top: 10px;
+}
+
+.imgProject {
+    position: absolute;
+    border-radius: 5%;
+    height: 250px;
+    width: 250px;
+    opacity: 1;
+}
+
+.dscProject {
+    position: absolute;
+    max-width: 229px;
+    text-align: center;
+    margin-left: 11px;
+    margin-top: 90px;
+    opacity: 0;
+    margin-right: 11px;
 }
 
 
