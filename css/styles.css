@@ -26,6 +26,7 @@ a {
     width: 100%;
     z-index: 2;
 }
+
 .listHeader li {
     display: block;
     padding: 15px;
@@ -90,7 +91,6 @@ a {
     margin-left: 30px;
     grid-template-columns: 1fr 1fr 1fr;
     row-gap: 5px;
-
     perspective: 1000px;
 }
 
@@ -99,8 +99,6 @@ a {
     border-radius: 5%;
     height: 200px;
     width: 200px;
-
-
     transition: transform 0.6s;
     transform-style: preserve-3d;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -120,9 +118,9 @@ a {
      height: 100%;
      backface-visibility: hidden;
      text-align: center;
-    }
+}
     
-    .skill-back {
+.skill-back {
     width: 100%;
     background-color: #194449;
     transform: rotateY(180deg);
@@ -151,10 +149,10 @@ a {
  }
 
  .progress-bar {
-     height: 65px;
-     width: 50px;
+    height: 65px;
+    width: 50px;
     margin: 0 5px;    
-     background-color: white;
+    background-color: white;
     cursor: pointer;
     border-radius: 2px;
         
@@ -202,7 +200,7 @@ a {
 
 .projetos:hover .imgProject {
     transition: 0.4s;
-    opacity: 0.5;
+    opacity: 15%;
 }
 
 .projetos:hover .nameProject {
@@ -212,16 +210,6 @@ a {
 .projetos:hover .dscProject {
     opacity: 1;
 }
-
-
-
-/* .detailProject {
-    text-align: center;
-    border: 1px solid red;
-    height: 250px;
-    width: 250px;
-    position: absolute;
-} */
 
 .nameProject {
     opacity: 0;   
@@ -248,12 +236,13 @@ a {
     margin-right: 11px;
 }
 
-
 .linhaD, .linhaE {
     height: 230px;
     margin-top: 10px;
     z-index: 1;
+    opacity: 0.5;
 }
+
 .linhaD {
     /* margin-right: 120px; */
     margin-left: 5px;
@@ -265,6 +254,7 @@ a {
     margin-right: 5px;
     border-left: 1px solid white;
 }
+
 /* PROJETOS END */
 
 /* ** */
